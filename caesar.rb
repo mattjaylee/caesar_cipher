@@ -20,9 +20,6 @@ def caesar (string, shift)
         else char_int
         end
     end
-    puts shifted_array.pack('c*')
     shifted_array.pack('c*')
 end
-
-caesar('abc', 2)
 
